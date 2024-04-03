@@ -13,31 +13,25 @@
 CUDA available: True
 Device name: NVIDIA GeForce RTX 3090
 
-* Run `python3 src/nerel_to_json.py` to build datasets
-* In folder `./dataset` you can find `nerel_data_train.json`, `nerel_data_dev.json` and `nerel_data_class_names.json`
-* Dataset configuration can be find in `constants.py`
+# 1. Подготовка данных
+Необходимо конвертировать данные NEREL в json формат.
 
-# Training
+`python3 nerel_to_json.py --dataset_path dataset/NEREL --tags_path dataset/nerel.tags --output_path dataset/nerel_data`
 
-  
-# Architecture
+# 2. Environment Setup
+`pip install -r /path/to/requirements.txt`
 
+# 3. Training
+`python3 src/train.py`
 
-# Sentence-embeddings
-
-
-
-# Export to onnx
-
+# 4. Predict
+`python3 src/predict_entities.py`
 
 # Best results (dev set, 10% of all data)
 ```json
 {
-    "dropout": 0.33217146571770845,
-    "beta": 0.9858882365915637,
-    "gamma": 0.46713439384680727,
-    "learning_rate": 0.00012052080975210854,
-    "base_model": "google/electra-small-discriminator",
-    "model_type": "electra",
-    "batch_size": 128
+        "learning_rate": 5e-5,
+        "architecture": "BERT",
+        "dataset": "NEREL-v1",
+        "epochs": 5,
 }
