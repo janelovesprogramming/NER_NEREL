@@ -14,9 +14,9 @@ CUDA available: True
 Device name: NVIDIA GeForce RTX 3090
 
 # 1. Подготовка данных
-Необходимо конвертировать данные NEREL в json формат.
 Для 2 задачи был выбран набор данных с рускоязычными текстами NEREL. NEREL - набор данных с вложенными именованными сущностями, отношениями, событиями и связями.
 
+Для конвертации данных NEREL в json формат необходимо запустить скрипт `nerel_to_json.py`.
 `python3 nerel_to_json.py --dataset_path dataset/NEREL --tags_path dataset/nerel.tags --output_path dataset/nerel_data`
 
 # 2. Environment Setup
