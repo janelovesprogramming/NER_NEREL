@@ -27,7 +27,7 @@ Device name: NVIDIA GeForce RTX 3090
 # 4. Predict
 `python3 src/predict_entities.py`
 
-# Best results (dev set, 10% of all data)
+# Dev set, 10% of all data)
 ```json
 {
         "learning_rate": 5e-5,
