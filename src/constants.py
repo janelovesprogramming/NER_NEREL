@@ -1,0 +1,10 @@
+DATASET = 'dataset/tests_data.csv'
+TRAIN_DATASET_FILES = "dataset/NEREL/train"
+TEST_DATASET_FILES = "dataset/NEREL/test"
+DEV_DATASET_FILES = "dataset/NEREL/dev"
+TAGS_FILE = "dataset/nerel.tags"
+DEV_PART = 0.1
+DATASET_PATH = "dataset/nerel"
+MODEL_NAME = "google-bert/bert-base-multilingual-cased"
+PATH_MODEL = "results/ner.pth"
+OUTPUT_TEST_PATH = "results/results_test.csv"

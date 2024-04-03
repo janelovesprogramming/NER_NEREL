@@ -1,0 +1,100 @@
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00,  9.10it/s]
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at google-bert/bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+383 383
+287 287
+298 298
+Map: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 746/746 [00:00<00:00, 2032.97 examples/s]
+Map: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████| 93/93 [00:00<00:00, 1428.48 examples/s]
+Map: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:00<00:00, 1518.62 examples/s]
+/home/jane/anaconda3/envs/torch/lib/python3.9/site-packages/accelerate/accelerator.py:432: FutureWarning: Passing the following arguments to `Accelerator` is deprecated and will be removed in version 1.0 of Accelerate: dict_keys(['dispatch_batches', 'split_batches', 'even_batches', 'use_seedable_sampler']). Please pass an `accelerate.DataLoaderConfiguration` instead:
+dataloader_config = DataLoaderConfiguration(dispatch_batches=None, split_batches=False, even_batches=True, use_seedable_sampler=True)
+  warnings.warn(
+
+
+
+
+
+
+
+
+
+
+
+ 20%|███████████████████████▋                                                                                                 | 92/470 [00:22<01:34,  4.01it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 42%|██████████████████████████████████████████████████▎                                                                     | 197/470 [00:49<01:08,  4.01it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 64%|████████████████████████████████████████████████████████████████████████████▎                                           | 299/470 [01:15<00:44,  3.88it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 85%|██████████████████████████████████████████████████████████████████████████████████████████████████████▏                 | 400/470 [01:41<00:18,  3.82it/s]
+
+
+
+
+
+
+
+
+
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋| 469/470 [01:59<00:00,  3.83it/s]
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 470/470 [01:59<00:00,  3.94it/s]
+ 92%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████▊          | 11/12 [00:00<00:00, 11.68it/s]/home/jane/anaconda3/envs/torch/lib/python3.9/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: 0 seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/home/jane/anaconda3/envs/torch/lib/python3.9/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: PERSON seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/home/jane/anaconda3/envs/torch/lib/python3.9/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: CITY seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/home/jane/anaconda3/envs/torch/lib/python3.9/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: ORGANIZATION seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/home/jane/anaconda3/envs/torch/lib/python3.9/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: AGE seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/home/jane/anaconda3/envs/torch/lib/python3.9/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: COUNTRY seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/home/jane/anaconda3/envs/torch/lib/python3.9/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: AWARD seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/home/jane/anaconda3/envs/torch/lib/python3.9/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: PROFESSION seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/home/jane/anaconda3/envs/torch/lib/python3.9/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: WORK_OF_ART seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/home/jane/anaconda3/envs/torch/lib/python3.9/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: LOCATION seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/home/jane/anaconda3/envs/torch/lib/python3.9/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: RELIGION seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 12/12 [00:01<00:00,  9.53it/s]

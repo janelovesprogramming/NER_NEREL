@@ -1,0 +1,17 @@
+accelerate==0.28.0
+datasets==2.18.0
+huggingface-hub==0.22.2
+nltk==3.8.1
+numpy==1.26.4
+pandas==2.2.1
+safetensors==0.4.2
+scikit-learn==1.4.1.post1
+scipy==1.13.0
+seqeval==1.2.2
+tokenizers==0.15.2
+torch==2.2.0
+torchaudio==2.2.0
+torchvision==0.17.0
+tqdm==4.66.2
+transformers==4.39.3
+wandb==0.16.5
